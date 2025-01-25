@@ -1,4 +1,4 @@
-# LLM Comparison Framework
+# LLM Evaluation Framework
 
 This repository contains the code for a framework that allows you to compare the performance of multiple Large Language Models (LLMs) on a dataset. The framework evaluates models using two metrics: ROUGE and BERT-Score. It also supports models hosted on Amazon Bedrock and those available on Hugging Face.
 
@@ -33,3 +33,5 @@ Replace <your_aws_access_key> and <your_aws_secret_key> with your AWS credential
 Dataset Format
 
 Your dataset should be a CSV file with the following columns:
+ 1- text 
+ 2- reference_summary
